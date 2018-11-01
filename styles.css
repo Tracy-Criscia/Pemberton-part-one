@@ -1,0 +1,158 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+body {
+  background-color: #F0ECEE
+}
+
+nav {
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  top: 0;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.img-bulldog {
+  width: 100%;
+  height: 600px;
+  background-image: url("img/bulldog.jpg");
+  background-size: 100%;
+  background-repeat:no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: right center;
+}
+
+.Adopt-Me {
+  font-weight: 400;
+  position: absolute;
+  top: 8px;
+  left: 36px;
+  font-size: 20px;
+}
+
+.Do-you {
+  position: absolute;
+  top: 25%;
+  left: 36px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+p {
+   display: flex;
+   /*flex-wrap: wrap;*/
+   word-wrap: break-word;
+}
+
+.We-will {
+    position: absolute;
+    top: 40%;
+    left: 36px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #88898B;
+}
+
+h1 {
+  display: flex;
+  align-items: flex-start;
+  font-size: 20px;
+}
+
+.last-word {
+  color: #FF4850;
+}
+
+.red-word {
+    color: #FF4850;
+}
+
+h3 {
+  display:flex;
+  align-items: flex-end;
+  font-size: 20px;
+  color: #88898B;
+    }
+
+
+  button {
+    position: absolute;
+    bottom: 250px;
+    left: 36px;
+    background-color: #FF4850;
+    border-radius: 15px;
+    color: white;
+    padding: 10px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    button-width: 300px;
+    click: pressed;
+    }
+
+    button:hover {
+      color: #FF4850
+    }
+
+ul {
+  margin-left: 350px;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 10px;
+  /*float: right;*/
+  /*line-height: 100px;*/
+}
+
+ul li a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 14px;
+  color: #88898B
+}
+
+ul li a:hover {
+  color: #CCC
+}
+
+@media (max-width: 960px) (min-width: 640){
+  .img-bulldog {
+  /*width: auto;*/
+  display: block;
+  }
+}
+
+/*@media only screen and (min-width: 768px) {
+.img-bulldog {
+    display: block;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.wrapper {
+  width: 600px;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 768px) {
+.img-bulldog {
+    width: 50%;
+    padding-bottom: 30px;
+}
+
+.wrapper {
+  width: 1000px;
+}*/
